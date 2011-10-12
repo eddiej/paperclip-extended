@@ -5,6 +5,7 @@ module Paperclip
     end
     
      def reprocess!(*style_args)
+		  logger.error('*** WHAOO!!!!')
         new_original = Tempfile.new("paperclip-reprocess")
         new_original.binmode
         if old_original = to_file(:original)
