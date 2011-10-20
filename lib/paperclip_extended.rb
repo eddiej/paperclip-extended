@@ -1,1 +1,1 @@
-require 'attachment'
+require 's3_buckets/storage'
